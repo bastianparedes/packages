@@ -1,0 +1,7 @@
+**/__tests__
+./.eslintignore
+./.eslintrc.js
+./.prettierignore
+./.prettierrc
+./jest.config.js
+./jest.setup.js
