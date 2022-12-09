@@ -1,0 +1,14 @@
+{
+  "author": "Bastián Paredes",
+  "dependencies": {},
+  "description": "My own useful utils",
+  "devDependencies": {},
+  "main": "./index.js",
+  "name": "bastianparedes-utils",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "version": "1.0.0"
+}

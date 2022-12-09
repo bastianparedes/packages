@@ -1,0 +1,16 @@
+{
+  "author": "Bastián Paredes",
+  "dependencies": {},
+  "description": "My own useful styles",
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  },
+  "files": [],
+  "name": "bastianparedes-styles",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "copyfiles -a ./*.{css,scss} ../../styles",
+    "test": "jest"
+  },
+  "version": "1.0.0"
+}
