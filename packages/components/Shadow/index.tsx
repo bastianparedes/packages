@@ -1,6 +1,7 @@
 import React from 'react';
 
-import classNames from '../../utils/classNames';
+import { classNames } from 'bastianparedes-utils';
+
 import styles from './styles.module.scss';
 
 interface props {

@@ -1,4 +1,5 @@
 **/__tests__
+**/packages
 ./.eslintignore
 ./.eslintrc.js
 ./.prettierignore
