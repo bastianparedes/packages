@@ -37,15 +37,13 @@
   "scripts": {
     "clean": "rimraf ./components ./styles ./utils",
     "fix": "npm run lint:fix && npm run test:u",
-    "format": "prettier --check .",
-    "format:fix": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "npm run clean && npm run prepare --workspaces",
-    "test": "npm run test --workspaces -- --passWithNoTests",
-    "test:u": "npm run test --workspaces -- --passWithNoTests --ci --u"
+    "test": "npm run test --workspaces -- --passWithNoTests --ci",
+    "test:u": "npm run test -- --u"
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "workspaces": [
     "./packages/**"
   ]
