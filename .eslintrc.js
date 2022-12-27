@@ -6,10 +6,10 @@ const eslintrc = {
     node: true
   },
   extends: [
-    'plugin:react/recommended',
+    'eslint:recommended',
     'standard-with-typescript',
-    'prettier',
-    'eslint:recommended'
+    'plugin:react/recommended',
+    'plugin:prettier/recommended'
   ],
   globals: {
     JSX: 'readonly'
