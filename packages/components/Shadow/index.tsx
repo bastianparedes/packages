@@ -32,8 +32,8 @@ const Shadow = ({
 
   return (
     <div
-      data-testid="data-testid-shadow"
       className={classNames(styles.shadow, ...classNamesList)}
+      data-testid="data-testid-shadow"
       onClick={handleOnClick}
     >
       {children}
