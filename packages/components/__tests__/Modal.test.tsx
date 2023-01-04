@@ -28,7 +28,7 @@ describe('<Modal />', () => {
 
     const { getByTestId } = render(<Modal {...props} />);
     const button = getByTestId('data-testid-button-closer-modal');
-    await act(() => {
+    act(() => {
       fireEvent.click(button);
     });
 
